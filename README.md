@@ -11,6 +11,8 @@ To build and run the application:
 $ s2i build https://github.com/openshift/httpd-ex centos/httpd-24-centos7 myhttpdimage
 $ docker run -p 8080:8080 myhttpdimage
 $ # browse to http://localhost:8080
+
+Checking if changes are uploaded---test comment
 ```
 
 You can also build and deploy the application on OpenShift, assuming you have a
